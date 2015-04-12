@@ -1,6 +1,9 @@
 #
 # EDA - project 1, plot1
 # 
+# ASSUMPTION: file reads the data that has been expanded already. Project instructions were not clear whether the data had to be downloaded
+# from the script or just needed to be expanded. I chose the latter.
+#
 # read data frame, add basic names.
 # Only read selected records to optimize script.
 df<-read.csv("household_power_consumption.txt", sep=";", skip=66636, nrow=2880, header = TRUE)
